@@ -1,0 +1,108 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: skyblue;
+}
+.result{
+    width: 100vw;
+    height: 10vh;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.result h1{
+    font-weight: bold;
+    font-size: 10vmin;
+    font-family: monospace;
+}
+.counter{
+    width: 50vw;
+    height: 10vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.counter h1{
+    margin-top: 50px;
+    width: 10vw;
+    background-color: white;
+    text-align: right;
+    border: 2px black solid;
+}
+
+.dice{
+    width: 60vw;
+    margin: 0 auto;
+    height: 60vh;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dice1,.dice2{
+    width: 40%;
+    height: 70%;
+    background-color: rgb(132, 2, 2);
+    border-radius: 15px;
+}
+.row{
+    height: 10vh;
+    display: flex;
+}
+.row .dota,.row .dotb{
+    margin-top: 60px;
+    margin-left: 55px;
+    width: 50px;
+    height: 50px;
+    background-color: cornsilk;
+    border-radius: 50%;
+    /* visibility: visible; */
+    /* z-index: 999; */
+}
+.dotshow{visibility: hidden;}
+/* .dot2{visibility: hidden;}
+.dot3{visibility: hidden;}
+.dot4{visibility: hidden;}
+.dot5{visibility: hidden;}
+.dot6{visibility: hidden;}
+.dot7{visibility: hidden;}
+.dot8{visibility: hidden;}
+.dot9{visibility: hidden;} */
+.btns{
+    width: 55vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.btn{
+    height: 10vh;
+    width: 20vw;
+    background-color: rgba(0, 0, 0, 0.597);
+    color: white;
+    font-size: 4vmin;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+footer{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
+footer h5{
+    font-size: 4vmin;
+}
